@@ -1,2 +1,5 @@
 # my-team-page
-This challenge  tested my basics CSS skills and got it to next level. I've worked with basic HTML element to make a simple but yet elegant team page.
+
+Challenge: Create my team page following the design. The page should be responsive. Don’t look at the existing solution. Fulfill user stories below
+
+User story: I can see a page following the given [design](https://www.figma.com/file/F8d1qJsorEdY47N74HLxQ4/team-page-challenge?node-id=0%3A1).
