@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&family=Poppins:wght@400;600&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+}
+
+.container {
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header {
+    padding-top: 110px;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.row {
+    display: flex;
+}
+
+.col {
+    width: 50%;
+}
+
+h1 {
+    font-family: 'PT Serif', serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 48px;
+    letter-spacing: -0.045em;
+    color: #000000;
+}
+
+h2 {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    text-transform: uppercase;
+    color: #000000;
+    margin-bottom: 10px;
+}
+
+.description {
+    font-family:'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+    color: #000000;
+}
+
+.row-team {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 96px;
+}
+
+.team {
+    max-width: 33.33%;
+}
+
+.team:nth-child(2) {
+    margin-left: 66px;
+    margin-right: 66px;
+    margin-top: 99px;
+}
+
+.team:nth-child(5) {
+    margin-top: 57px;
+}
+
+img {
+    max-width: 237px;
+    max-height: 341px;
+    width: 100%;
+    height: auto;
+}
