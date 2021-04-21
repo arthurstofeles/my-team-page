@@ -19,8 +19,6 @@ body {
 
 header {
     padding-top: 110px;
-    align-items: flex-start;
-    justify-content: space-between;
 }
 
 .row {
@@ -70,6 +68,7 @@ h2 {
 
 .team {
     max-width: 33.33%;
+    position: relative;
 }
 
 .team:nth-child(2) {
@@ -87,4 +86,125 @@ img {
     max-height: 341px;
     width: 100%;
     height: auto;
+    padding-right: 26px;
+}
+
+.vertical-text {
+    font-family: 'PT Serif', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    text-transform: uppercase;
+    color: #000000;
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.name {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    color: #000000;
+    margin-top: 15px;
+}
+
+footer {
+    padding: 115px 0 24px 0;
+}
+
+footer p {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #A9A9A9;
+}
+
+footer a {
+    font-weight: bold;
+    color: #A9A9A9;
+}
+
+@media only screen and (max-width: 1024px) {
+
+    header {
+        padding: 71px 12px 0 12px;
+    }
+
+    header .row {
+        flex-direction: column;
+    }
+
+    .col {
+        width: 100%;
+    }
+
+    .col h1 {
+        margin-bottom: 38px;
+    }
+
+    main {
+        padding: 0 20px;
+    }
+
+    .row-team {
+        margin-top: 59px;
+    }
+
+    .team {
+        max-width: 30%;
+    }
+
+    .team:nth-child(2), .team:nth-child(5)  {
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 59px;
+    }
+
+}
+
+@media only screen and (max-width: 767px) {
+
+    .description {
+        font-size: 14px;
+        line-height: 21px;
+    }
+
+    img {
+        padding-right: 17px;
+    }
+
+    .vertical-text {
+        font-size: 10px;
+        line-height: 13px;
+    }
+
+    .name {
+        font-size: 14px;
+        line-height: 21px;
+        margin-top: 10px;
+    }
+
+    .team {
+        max-width: 45%;
+    }
+
+    .team:nth-child(even) {
+        margin-left: 20px;
+        margin-right: 0px;
+        margin-top: 48px;
+    }
+
+    .team:nth-child(5) {
+        margin: 0;
+    }
+
 }
